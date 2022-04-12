@@ -14,6 +14,6 @@ jobs:
       uses: akhileshns/heroku-deploy@v3.12.12
       with:
         heroku_api_key: ${{ secrets.api_key}}
-        heroku_app_name: bearappyf
+        heroku_app_name: "bearappyf"
         heroku_email: ${{ secrets.email }}
         branch: ${{ github.ref_name }} 
